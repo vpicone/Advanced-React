@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React from 'react';
+// import Link from 'next/link';
+
+import CreateItem from '../components/CreateItem';
 
 const Home = props => (
   <div>
-    <p>Sell</p>
+    <CreateItem />
   </div>
 );
 

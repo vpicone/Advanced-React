@@ -9,9 +9,10 @@ import styled from 'styled-components';
 Router.onRouteChangeStart = () => {
   NProgress.start();
 };
-Router.onRouterChangeComplete = () => {
+Router.onRouteChangeComplete = () => {
   NProgress.done();
 };
+
 Router.onRouteChangeError = () => {
   NProgress.done();
 };
