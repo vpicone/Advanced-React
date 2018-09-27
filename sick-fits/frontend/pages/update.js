@@ -3,10 +3,10 @@ import React from 'react';
 
 import UpdateItem from '../components/UpdateItem';
 
-const Home = ({ query }) => (
+const Update = ({ query }) => (
   <div>
     <UpdateItem id={query.id} />
   </div>
 );
 
-export default Home;
+export default Update;

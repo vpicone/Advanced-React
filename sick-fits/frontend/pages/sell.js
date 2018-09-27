@@ -3,10 +3,10 @@ import React from 'react';
 
 import CreateItem from '../components/CreateItem';
 
-const Home = props => (
+const Sell = props => (
   <div>
     <CreateItem />
   </div>
 );
 
-export default Home;
+export default Sell;
